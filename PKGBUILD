@@ -4,9 +4,10 @@ pkgrel=1
 pkgdesc='gtk icon theme pack for midna'
 arch=('x86_64')
 url='https://github.com/Gabrielgtx/midna-gtk-icon-theme'
-depends=('midna-themes')
+depends=('midna-themes' 'breeze-gtk')
 optdepends=('breeze-gtk: enhanced management for themes gtk 2 and 3')
 license=('CUSTOM')
+install="${pkgname}.install"
 source=("https://github.com/Gabrielgtx/${pkgname}/archive/${pkgver}.tar.gz")
 md5sums=('SKIP')
 
